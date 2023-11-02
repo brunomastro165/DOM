@@ -54,7 +54,7 @@ const enviarFormulario = (event) => {
 
     console.log(name.value, email.value, password.value);
 
-    if(name.value.lenght === 0) alert("El nombre no es valido");
+    if(name.value.length === 0) alert("El nombre no es valido");
 };
 
 form.addEventListener("submit", enviarFormulario);
